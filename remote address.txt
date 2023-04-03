@@ -1,5 +1,0 @@
-https 
-https://github.com/gozar1401/gozar-coffee.git
-**********************************************
-ssh 
-git@github.com:gozar1401/gozar-coffee.git
