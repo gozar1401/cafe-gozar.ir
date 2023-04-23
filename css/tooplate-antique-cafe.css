@@ -35,6 +35,8 @@ footer span a { color: #FFF; }
     max-width: 1200px;
 }
 
+/* this calss is overwrite */
+
 .parallax-window {
     min-height: 1064px;
     background: transparent;

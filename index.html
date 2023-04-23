@@ -12,6 +12,7 @@
     <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    <link rel="stylesheet" href="css/overwrite.css">
     
 <!--
 
@@ -23,7 +24,7 @@ https://www.tooplate.com/view/2126-antique-cafe
 </head>
 <body>    
     <!-- Intro -->
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
+    <div id="intro" class="parallax-window1" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
         <nav id="tm-nav" class="fixed w-full">
             <div class="tm-container mx-auto px-2 md:py-6 text-right">
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
@@ -36,31 +37,23 @@ https://www.tooplate.com/view/2126-antique-cafe
             </div>            
         </nav>
         <div class="container mx-auto px-2 tm-intro-width">
-            <div class="sm:pb-60 sm:pt-48 py-20">
+            <div class="sm:pb-60 sm:pt-48 py-20 intro_height">
                 <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
                     <h1 class="text-white text-5xl tm-logo-font mb-5">Gozar Cafe</h1>
                     <p class="tm-text-gold tm-text-2xl">your daily energy booster</p>
                 </div>    
                 <div class="bg-black bg-opacity-70 p-10 mb-5">
                     <p class="text-white leading-8 text-sm font-light">
-                        This is a coffee shop template named Antique Cafe which is a parallax HTML5 template with a good responsiveness.
-                        Feel free to use this layout for your cafe.
+                        Welcome to Gozar cafe.
                     	If you have any question, please contact us 
-                        <!-- <a rel="nofollow" href="https://my account" target="_parent">send us a message</a>. </p> -->
+                        <!-- <a rel="nofollow" href="https://my account" target="_parent">send us a message</a>. -->
+                    </p>
                 </div>
-                <div class="text-center">
-                    <div class="inline-block">
-                        <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
-                            <i class="fas fa-coffee mr-3"></i>
-                            <span>Let's explore...</span>                        
-                        </a>
-                    </div>                    
-                </div>                
             </div>
         </div>        
     </div>
     <!-- Cafe Menu -->
-    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
+    <div id="menu" class="parallax-window2" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
         <div class="container mx-auto tm-container py-24 sm:py-48">
             <div class="text-center mb-16">
                 <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Our Cafe Menu</h2>
@@ -86,7 +79,7 @@ https://www.tooplate.com/view/2126-antique-cafe
                     <div class="flex items-start mb-6 tm-menu-item">
                         <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
                         <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
                             <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
                         </div>                    
@@ -176,7 +169,7 @@ https://www.tooplate.com/view/2126-antique-cafe
                         </a>
                     </div>                    
                 </div>
-                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+                 <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
                     <form action="" method="POST" class="text-lg">
                         <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
                         <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
@@ -194,7 +187,7 @@ https://www.tooplate.com/view/2126-antique-cafe
                 </div>                
             </footer>
         </div>        
-    </div>    
+    </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/parallax.min.js"></script>
