@@ -13,4 +13,6 @@
     background: transparent;
 }
 
-
+.number-font{
+    font-family: 'sans-serif' !important;
+}
